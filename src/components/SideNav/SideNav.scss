@@ -1,0 +1,35 @@
+#sidebar {
+  flex: 15%;
+  height: 100vh;
+  z-index: 999;
+  background: #f0f4f7;
+  color: #000;
+  transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+  padding: 20px;
+}
+
+#sidebar ul.components {
+  padding: 20px 0;
+}
+
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+}
+
+#sidebar ul li a:hover {
+  background: #fff;
+  text-decoration: none;
+}
+
+#sidebar ul li > a {
+  color: #000;
+}
+
+#sidebar ul li > .active {
+  color: #007bff;
+}

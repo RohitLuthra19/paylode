@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+
+#content {
+  flex: 85%;
+  padding: 20px;
+  min-height: 100vh;
+  transition: all 0.3s;
+}
